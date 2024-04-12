@@ -15,7 +15,6 @@ include ('dbcon.php');
     <table>
     <tbody>
     <?php
-
         $ref_table = "fuel";
         $fetchData = $database->getReference($ref_table)->getValue();
         if($fetchData > 0){
